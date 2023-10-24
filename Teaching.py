@@ -4,10 +4,10 @@ from math import comb
 csvFile = 'teachingData.csv' 
 df = pd.read_csv(csvFile)
 
+firstObject = str(input("What do you put on the white board?")).lower().title()
+print(firstObject)
+
 for index, row in df.iterrows():
-    categoryName = str(col['Category'])
-    firstObject = str(input("What do you put on the white board?"))
+    categoryName = str(row['Category'])
     if str(row[firstObject]) == '1':
-	    print(f"Is it" + str(row['categoryName'])+ "?")
-    else:
-        print(f"")
+	    print("Is it " + str(categoryName)+ "?")
