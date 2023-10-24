@@ -1,0 +1,16 @@
+Category,Strawberry,Jack-O-Lanturn,Rose,Apple,Basketball
+Red,1,0,1,1,0
+Orange,0,1,0,0,1
+Yellow,0,0,0,0,0
+Green,0,0,0,0,0
+Blue,0,0,0,0,0
+Purple,0,0,0,0,0
+Pink,0,0,0,0,0
+Brown,0,0,0,0,0
+Black,0,0,0,0,0
+Gray,0,0,0,0,0
+Food,1,1,0,1,0
+Not Food,0,1,1,0,1
+Small,1,0,1,1,0
+Medium,0,1,0,0,1
+Big,0,0,0,0,0
